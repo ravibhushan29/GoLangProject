@@ -1,0 +1,76 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.jar
+
+# Output of the Go build
+/bin/
+/pkg/
+
+# Dependency directories (remove the "/" at the end to include it if using vendoring)
+/vendor/
+Gopkg.lock
+go.sum
+
+# IDE - Visual Studio Code
+.vscode/
+*.code-workspace
+history
+
+# JetBrains IDEs (e.g., GoLand)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Linux specific
+.*
+!.gitignore
+!.gitkeep
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Node-Modules
+/node_modules/
+
+# Coverage files
+coverage.txt
+*.cover
+*.coverage
+*.cache
+
+# GoLand directories
+/.idea/
+
+# Generated files by Go
+*.gen.go
+*.pb.go
+*.pb.gw.go
+
+# Exclude vendor if not using vendoring
+/vendor/
